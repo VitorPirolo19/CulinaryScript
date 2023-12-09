@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CulinaryScript</title>
     </head>
     <body>
-        <h1>Recipes</h1>
+        <div class="title-bar">
+            <h1 id="homepage-title">CulinaryScript</h1>
+        </div>
         <ul>
-            <li><a href="recipes/chickenkatsu.html">Chicken Katsu</a></li>
-            <li><a href="recipes/onigiri.html">Onigiri</a></li>
-            <li><a href="recipes/mochi.html">Mochi</a></li>
+            <li>
+                <div class="recipe">
+                    <a href="recipes/chickenkatsu.html">
+                        <img class="avatar-image" src="img/katsu.jpg" alt="Chicken Katsu Image">
+                        <p class="food-category">Japanese Food</p>
+                        <p class="recipe-title">Chicken Katsu</p>
+                    </a>
+                </div>
+            </li>
+
+            <li>
+                <div class="recipe">
+                    <a href="recipes/onigiri.html">
+                        <img class="avatar-image" src="img/onigiri.jpg" alt="Onigiri Image">
+                        <p class="food-category">Japanese Food</p>
+                        <p class="recipe-title">Onigiri</p>
+                    </a>
+                </div>
+            </li>
+
+            <li>
+                <div class="recipe">
+                    <a href="recipes/mochi.html">
+                        <img class="avatar-image" src="img/mochi.jpg" alt="Mochi Image">
+                        <p class="food-category">Japanese Food</p>
+                        <p class="recipe-title">Mochi</p>
+                    </a>
+                </div>
+            </li>
         </ul>
     </body>
 </html>

@@ -1,0 +1,39 @@
+body {
+    background-color: #ede1b1
+}
+
+.title-bar #homepage-title {
+    color:#8b0000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.recipe .avatar-image{
+    height: auto;
+    width: 250px
+}
+
+.food-category {
+    color:#2e2e2e;   
+}
+
+.recipe .recipe-title {
+    color: #8b0000;
+    font-size:larger
+}
+
+.recipe:hover {
+    text-decoration: underline;
+}
